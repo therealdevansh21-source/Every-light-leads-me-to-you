@@ -205,3 +205,358 @@ h2 em,h1 em { font-weight: 400; }
   *,*::before,*::after { scroll-behavior:auto !important; animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; }
   .reveal { opacity:1; transform:none; }
 }
+
+/* ================================================================
+   IMMERSIVE DIWALI WORLD — visual-only refinements
+   All existing copy, captions, photograph sources and interactions
+   above this block are intentionally left untouched.
+   ================================================================ */
+:root {
+  --night-ink: #f9eddf;
+  --night-muted: rgba(255, 243, 226, .84);
+  --gold-light: #f5d79c;
+  --rose-light: #efc1cc;
+}
+
+body {
+  position: relative;
+  background: #292748;
+}
+
+main {
+  position: relative;
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse at 7% 13%, rgba(250, 194, 177, .18), transparent 28%),
+    radial-gradient(ellipse at 92% 36%, rgba(201, 157, 196, .12), transparent 28%),
+    linear-gradient(180deg,
+      #51476f 0%,
+      #8b647f 9%,
+      #c58b91 17%,
+      #9b718a 26%,
+      #615576 40%,
+      #37345f 58%,
+      #29294f 76%,
+      #242344 100%);
+}
+
+main::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  pointer-events: none;
+  opacity: .19;
+  background-image:
+    radial-gradient(circle at 11% 17%, #fff1ce 0 1px, transparent 1.7px),
+    radial-gradient(circle at 76% 29%, #fff1ce 0 1px, transparent 1.7px),
+    radial-gradient(circle at 37% 51%, #fff1ce 0 1px, transparent 1.7px),
+    radial-gradient(circle at 83% 68%, #fff1ce 0 1px, transparent 1.7px);
+  background-size: 173px 197px, 211px 227px, 193px 181px, 239px 213px;
+}
+
+.chapter { background-color: transparent; }
+.paper { background-color: transparent !important; }
+.paper::before {
+  opacity: .12;
+  mix-blend-mode: screen;
+  background-image: radial-gradient(rgba(255, 236, 207, .42) .7px, transparent .9px);
+  background-size: 11px 11px;
+}
+
+/* The arrival: the homes, balconies and lamps become the setting. */
+.arrival {
+  color: var(--night-ink);
+  background-image:
+    linear-gradient(180deg, rgba(231, 185, 183, .19), rgba(57, 47, 78, .36)),
+    url("assets/illustrations/dusk-neighbourhood.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center bottom;
+  background-size: 100% 100%, 100% auto;
+  padding-top: 126px;
+  padding-bottom: 104px;
+}
+.arrival .section-kicker,
+.arrival .section-kicker span:first-child { color: #fff0d9; }
+.arrival .section-kicker i { background: rgba(255, 232, 198, .62); }
+.arrival-copy {
+  max-width: 535px;
+  padding: clamp(25px, 3.3vw, 43px);
+  border: 1px solid rgba(255, 232, 206, .56);
+  border-radius: 30px 8px 30px 8px;
+  background: rgba(255, 247, 235, .84);
+  box-shadow: 0 22px 56px rgba(47, 35, 65, .16), inset 0 0 0 5px rgba(255, 255, 255, .2);
+  backdrop-filter: blur(7px);
+}
+.arrival-copy h2 { color: #59445b; }
+.arrival-copy h2 em { color: #a96f85; }
+.arrival-copy p:not(.eyebrow):not(.script-line) { color: #6e5b6e; }
+.arrival-copy .script-line { color: #9c6e7f; }
+.arrival .eyebrow { color: #a77b83; }
+.festive-illustration {
+  min-height: 500px;
+  border-radius: 30px 110px 28px 110px;
+  border: 1px solid rgba(255, 226, 191, .46);
+  background: linear-gradient(160deg, rgba(229, 193, 209, .94), rgba(190, 133, 147, .9) 53%, rgba(111, 83, 113, .96));
+  box-shadow: 0 28px 70px rgba(40, 31, 64, .3), inset 0 0 48px rgba(255, 232, 197, .12);
+}
+.festive-illustration::after {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border: 1px solid rgba(255, 239, 208, .3);
+  border-radius: 24px 96px 22px 96px;
+  pointer-events: none;
+}
+.arrival-footer { color: #fff0dc; }
+.arrival-footer p { text-shadow: 0 2px 18px rgba(42, 33, 65, .35); }
+.arrival-footer .ornament { color: #f5d494; }
+
+/* Pari's scrapbook gallery: real photographs against a decorated home. */
+.memory-section {
+  padding-top: 122px;
+  padding-bottom: 118px;
+  color: var(--night-ink);
+  background-image:
+    linear-gradient(180deg, rgba(91, 66, 104, .46), rgba(58, 48, 86, .76)),
+    url("assets/illustrations/festive-home.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center bottom;
+  background-size: 100% 100%, 100% auto;
+}
+.memory-section .section-kicker,
+.memory-section .section-kicker span:first-child { color: #f7dfc5; }
+.memory-section .section-kicker i { background: rgba(255, 228, 198, .55); }
+.memory-section .eyebrow { color: #f2c7c4; }
+.section-heading {
+  max-width: 790px;
+  padding: clamp(22px, 3vw, 34px) clamp(20px, 4vw, 48px);
+  margin-top: 44px;
+  border: 1px solid rgba(255, 235, 209, .3);
+  border-radius: 26px 8px 26px 8px;
+  background: rgba(46, 39, 73, .37);
+  box-shadow: 0 18px 48px rgba(24, 22, 51, .12);
+  backdrop-filter: blur(5px);
+}
+.section-heading h2 { color: #fff0dd; }
+.section-heading h2 em { color: #f0c5cd; }
+.section-heading > p:last-child { color: rgba(255, 245, 230, .88); }
+.memory-decor { color: rgba(248, 212, 174, .18); }
+.decor-right { color: rgba(242, 199, 207, .2); }
+.yellow-gallery { margin-top: 62px; }
+.yellow-gallery::before { border-color: rgba(246, 214, 166, .4); }
+.polaroid {
+  background: #fffaf0;
+  box-shadow: 0 20px 52px rgba(20, 20, 49, .32), 0 0 0 1px rgba(255, 232, 203, .32);
+}
+.polaroid img { background: #e9d9de; }
+.polaroid figcaption { color: #805f74; }
+.soft-note {
+  border-color: rgba(255, 225, 195, .38);
+  color: #ffe9d4;
+  background: rgba(47, 40, 75, .2);
+}
+.soft-note span { color: #f1d093; }
+.solo-rail-wrap { padding-top: 8px; }
+.rail-heading { color: #ffe9d7; }
+.rail-hint { color: #f0cfbb; }
+.photo-rail { scrollbar-color: #c99c9d transparent; }
+.rail-photo {
+  background: #fffaf0;
+  box-shadow: 0 17px 38px rgba(24, 20, 48, .3);
+}
+
+/* Fireworks chapter: the original couple photographs stay untouched. */
+.night-section {
+  background-image:
+    linear-gradient(180deg, rgba(38, 39, 78, .16), rgba(38, 34, 67, .34)),
+    url("assets/illustrations/midnight-town.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center bottom;
+  background-size: 100% 100%, 100% auto;
+}
+.night-section::before {
+  background:
+    radial-gradient(ellipse at 70% 16%, rgba(225, 172, 189, .18), transparent 36%),
+    radial-gradient(ellipse at 15% 75%, rgba(239, 182, 139, .14), transparent 38%),
+    linear-gradient(180deg, rgba(43, 43, 82, .05), rgba(43, 34, 70, .15));
+}
+.couple-photo {
+  border: 1px solid rgba(255, 226, 190, .72);
+  box-shadow: 0 25px 65px rgba(12, 13, 38, .48), 0 0 0 5px rgba(255, 245, 224, .08);
+}
+
+/* The couple album remains a real-photo album, but now under the same sky. */
+.us-album {
+  color: var(--night-ink);
+  background-image:
+    linear-gradient(180deg, rgba(46, 43, 79, .68), rgba(41, 38, 72, .82)),
+    url("assets/illustrations/midnight-town.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center bottom;
+  background-size: 100% 100%, 100% auto;
+}
+.us-album .section-kicker,
+.us-album .section-kicker span:first-child { color: #f4dec4; }
+.us-album .section-kicker i { background: rgba(255, 226, 195, .55); }
+.album-header h2 { color: #fff0dc; }
+.album-header h2 em { color: #efc3cd; }
+.album-header > p { color: rgba(255, 243, 226, .85); }
+.album-footnote { color: #f9dfca; }
+.album-footnote span { color: #f1cf8c; }
+.couple-rail .rail-photo { box-shadow: 0 18px 45px rgba(14, 15, 42, .4); }
+
+/* Quieter hours: the evening settles into a starry midnight. */
+.quiet-section {
+  background-image:
+    linear-gradient(180deg, rgba(41, 39, 78, .56), rgba(41, 36, 69, .37)),
+    url("assets/illustrations/lantern-midnight.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center bottom;
+  background-size: 100% 100%, 100% auto;
+}
+.quiet-section::before { opacity: .42; }
+.quiet-section::after {
+  height: 210px;
+  background: linear-gradient(0deg, rgba(255, 194, 151, .17), transparent);
+}
+
+/* Nine lights: the diyas sit inside the same midnight neighbourhood. */
+.diya-section {
+  color: var(--night-ink);
+  background-image:
+    linear-gradient(180deg, rgba(43, 39, 78, .48), rgba(39, 36, 70, .7)),
+    url("assets/illustrations/lantern-midnight.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center bottom;
+  background-size: 100% 100%, 100% auto;
+  padding-top: 122px;
+  padding-bottom: 112px;
+}
+.diya-section .section-kicker,
+.diya-section .section-kicker span:first-child { color: #f5dfc9; }
+.diya-section .section-kicker i { background: rgba(255, 227, 195, .55); }
+.diya-heading .eyebrow { color: #f1c9c3; }
+.diya-heading h2 { color: #fff0dc; }
+.diya-heading h2 em { color: #edc3cd; }
+.diya-heading > p:not(.eyebrow):not(.tap-hint) { color: rgba(255, 242, 225, .86); }
+.tap-hint { color: #f5d6c2; }
+.diya-label { color: #f8e2cf; text-shadow: 0 2px 12px rgba(26, 23, 53, .55); }
+.diya-button.lit .diya-label { color: #ffe0a0; }
+.diya-button:focus-visible { outline-color: #f3d29a; }
+.diya-progress-wrap { color: #f5dfce; }
+.diya-progress-track { background: rgba(255, 239, 218, .2); }
+.all-lit-message {
+  border-color: rgba(246, 215, 174, .6);
+  background: rgba(255, 247, 232, .9);
+  box-shadow: 0 18px 48px rgba(16, 16, 43, .28), 0 0 44px rgba(255, 207, 137, .12);
+}
+.all-lit-message h3 { color: #80566e; }
+.all-lit-message p { color: #806b78; }
+
+/* Final reveal: one real portrait, one intact letter, a quieter sky. */
+.finale {
+  color: var(--night-ink);
+  background-image:
+    linear-gradient(180deg, rgba(39, 38, 75, .53), rgba(35, 34, 66, .78)),
+    url("assets/illustrations/lantern-midnight.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center bottom;
+  background-size: 100% 100%, 100% auto;
+  padding-top: 124px;
+  padding-bottom: 42px;
+}
+.finale::before {
+  background:
+    radial-gradient(ellipse at 11% 20%, rgba(227, 159, 172, .13), transparent 28%),
+    radial-gradient(ellipse at 91% 83%, rgba(229, 187, 128, .12), transparent 31%);
+}
+.finale .section-kicker,
+.finale .section-kicker span:first-child { color: #f7e2cf; }
+.finale .section-kicker i { background: rgba(255, 227, 195, .56); }
+.finale-florals { color: rgba(246, 213, 181, .46); }
+.photo-arch {
+  background: #fff9ec;
+  box-shadow: 0 25px 65px rgba(13, 15, 42, .46), 0 0 0 8px rgba(255, 241, 214, .08);
+}
+.photo-caption { color: #ffe4d0; text-shadow: 0 2px 14px rgba(25, 22, 52, .4); }
+.closing-footer {
+  border-color: rgba(255, 225, 194, .3);
+  color: #f6ddc9;
+}
+.closing-footer b { color: #f2ca8d; }
+
+/* Subtle motion and legibility polish. */
+@keyframes eveningGlow {
+  0%, 100% { opacity: .6; }
+  50% { opacity: 1; }
+}
+.hero-lantern, .quiet-lantern { will-change: transform; }
+.festive-illustration .mini-diya::before { animation: eveningGlow 2.2s ease-in-out infinite; }
+.diya-button.lit .diya-flame { filter: drop-shadow(0 0 18px rgba(255, 203, 118, .9)); }
+:focus-visible { outline-offset: 4px; }
+
+@media (max-width: 900px) {
+  .arrival { background-size: 100% 100%, auto 64%; }
+  .memory-section { background-size: 100% 100%, auto 58%; }
+  .night-section, .us-album { background-size: 100% 100%, auto 70%; }
+  .quiet-section, .diya-section, .finale { background-size: 100% 100%, auto 78%; }
+}
+
+@media (max-width: 650px) {
+  .arrival, .memory-section, .night-section, .us-album, .diya-section, .finale {
+    background-size: 100% 100%, auto 46%;
+    background-position: center, center bottom;
+  }
+  .arrival { padding-top: 102px; padding-bottom: 88px; }
+  .arrival-copy {
+    padding: 24px 20px;
+    border-radius: 22px 8px 22px 8px;
+    background: rgba(255, 247, 236, .9);
+  }
+  .festive-illustration {
+    min-height: 350px;
+    border-radius: 24px 72px 22px 72px;
+  }
+  .arrival-footer { text-shadow: 0 2px 15px rgba(34, 27, 57, .45); }
+  .memory-section { padding-top: 100px; padding-bottom: 95px; }
+  .section-heading {
+    margin-top: 38px;
+    padding: 22px 18px;
+    border-radius: 20px 7px 20px 7px;
+    background: rgba(46, 39, 73, .48);
+  }
+  .soft-note { background: rgba(47, 40, 75, .3); }
+  .night-section, .us-album, .quiet-section, .diya-section, .finale {
+    background-position: center, center bottom;
+  }
+  .album-header > p { color: rgba(255, 243, 226, .88); }
+  .diya-grid { position: relative; z-index: 1; }
+  .finale { padding-top: 104px; }
+}
+
+/* Final scene integration: remove the remaining framed illustration-card feel. */
+.festive-illustration {
+  min-height: 490px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  overflow: visible;
+}
+.festive-illustration::after { display: none; }
+.festive-illustration::before {
+  left: -8%;
+  right: -8%;
+  height: 110px;
+  border-radius: 50% 50% 0 0 / 22% 22% 0 0;
+  background: linear-gradient(180deg, rgba(255, 224, 185, .1), rgba(66, 50, 81, .28));
+  opacity: 1;
+}
+.memory-section {
+  background-position: center, center top;
+}
+@media (max-width: 650px) {
+  .festive-illustration { min-height: 360px; }
+  .memory-section { background-position: center, center top; }
+}

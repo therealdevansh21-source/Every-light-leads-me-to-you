@@ -62,3 +62,14 @@ npx vercel --prod
 ## Privacy note
 
 The deployed website is publicly reachable by anyone who has its URL. The URL may be unlisted, but it is not password-protected by this project. Only deploy the photographs if you are comfortable with anyone possessing the link being able to view them. Do not add personal addresses, phone numbers, or other sensitive details.
+
+## Immersive visual update
+
+The visual environment is built from four local vector illustrations in `assets/illustrations/`:
+
+- `dusk-neighbourhood.svg` — the warm evening homes, lit windows, balconies and doorstep details.
+- `festive-home.svg` — fairy lights, floral torans and decorated-home details behind the memory gallery.
+- `midnight-town.svg` — the violet night skyline and firework backdrop.
+- `lantern-midnight.svg` — the quieter starry sky, floating lanterns and distant glowing homes.
+
+These are local SVG assets; the site does not need a separate image service or build step. The visual update changes the page backgrounds and decorative environments only. The supplied `index.html`, `script.js`, 17 selected WebP photographs, their captions, the nine diya messages and the final letter remain unchanged.

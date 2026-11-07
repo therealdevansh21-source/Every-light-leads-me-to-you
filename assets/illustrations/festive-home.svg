@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" viewBox="0 0 1800 1000" fill="none">
+ <defs>
+  <radialGradient id="glow"><stop stop-color="#FFE8B0" stop-opacity=".8"/><stop offset="1" stop-color="#FFE8B0" stop-opacity="0"/></radialGradient>
+  <linearGradient id="lamp" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#F6C58C"/><stop offset="1" stop-color="#B16C68"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="11"/></filter>
+ </defs>
+ <!-- draped fairy light cables -->
+ <path d="M-20 125C260 20 490 225 750 126s490-130 650-28 300 40 440-30" stroke="#CDA779" stroke-width="3" opacity=".72"/>
+ <g fill="#FFE5A2" stroke="#DAAB77" stroke-width="2"><circle cx="82" cy="103" r="8"/><circle cx="236" cy="90" r="8"/><circle cx="396" cy="113" r="8"/><circle cx="556" cy="163" r="8"/><circle cx="742" cy="135" r="8"/><circle cx="922" cy="76" r="8"/><circle cx="1100" cy="69" r="8"/><circle cx="1287" cy="113" r="8"/><circle cx="1464" cy="113" r="8"/><circle cx="1622" cy="76" r="8"/><circle cx="1760" cy="38" r="8"/></g>
+ <g fill="url(#glow)" filter="url(#blur)" opacity=".9"><circle cx="82" cy="103" r="22"/><circle cx="236" cy="90" r="22"/><circle cx="396" cy="113" r="22"/><circle cx="556" cy="163" r="22"/><circle cx="742" cy="135" r="22"/><circle cx="922" cy="76" r="22"/><circle cx="1100" cy="69" r="22"/><circle cx="1287" cy="113" r="22"/><circle cx="1464" cy="113" r="22"/><circle cx="1622" cy="76" r="22"/><circle cx="1760" cy="38" r="22"/></g>
+ <!-- floral toran -->
+ <path d="M100 0q70 165 160 0M410 0q72 162 164 0M1240 0q80 168 168 0M1555 0q80 166 165 0" stroke="#9A795F" stroke-width="4"/>
+ <g fill="#E9A46F"><circle cx="133" cy="65" r="13"/><circle cx="152" cy="77" r="13"/><circle cx="168" cy="62" r="13"/><circle cx="443" cy="61" r="13"/><circle cx="464" cy="73" r="13"/><circle cx="483" cy="57" r="13"/><circle cx="1273" cy="64" r="13"/><circle cx="1293" cy="77" r="13"/><circle cx="1310" cy="60" r="13"/><circle cx="1588" cy="66" r="13"/><circle cx="1607" cy="78" r="13"/><circle cx="1625" cy="61" r="13"/></g>
+ <!-- lanterns and hanging flower chains -->
+ <g stroke="#D5A77A" stroke-width="3"><path d="M295 0v160M275 160h40l-5 14h-30zM1478 0v190M1458 190h40l-5 14h-30z"/></g>
+ <g fill="#D99594" stroke="#F1C69D" stroke-width="4"><path d="M273 174h44l-6 75q-16 28-32 0z"/><path d="M1456 204h44l-6 78q-16 28-32 0z"/></g>
+ <g fill="url(#glow)" filter="url(#blur)"><ellipse cx="295" cy="227" rx="47" ry="56"/><ellipse cx="1478" cy="257" rx="47" ry="56"/></g>
+ <!-- soft haveli skyline at far edges, leaving the center airy for photographs -->
+ <g opacity=".68">
+  <path d="M0 635V310h210v-85l72 54 75-54v85h140v325z" fill="#574A70" opacity=".72"/>
+  <path d="M0 321h497M0 350h497" stroke="#F0C9A1" stroke-width="7"/>
+  <g fill="#F8DFA9"><path d="M34 635V390q0-42 39-42t39 42v245z"/><path d="M162 635V390q0-42 39-42t39 42v245z"/><path d="M291 635V390q0-42 39-42t39 42v245z"/><path d="M420 635V390q0-42 39-42t39 42v245z"/></g>
+  <path d="M1300 690V350h190v-94l71 49 75-49v94h164v340z" fill="#4F476C" opacity=".75"/>
+  <path d="M1280 362h520M1280 390h520" stroke="#E7B895" stroke-width="7"/>
+  <g fill="#F5DDA7"><path d="M1320 690V434q0-40 38-40t38 40v256z"/><path d="M1450 690V434q0-40 38-40t38 40v256z"/><path d="M1580 690V434q0-40 38-40t38 40v256z"/><path d="M1710 690V434q0-40 38-40t38 40v256z"/></g>
+ </g>
+ <!-- marigold shrubs and rangoli at the lower edge -->
+ <g stroke="#65775D" stroke-width="8" stroke-linecap="round"><path d="M0 910q88-130 155-226M35 930q112-120 200-130M1800 910q-100-140-170-220M1760 930q-120-115-220-130"/></g>
+ <g fill="#A5B88B"><ellipse cx="70" cy="790" rx="34" ry="15" transform="rotate(-38 70 790)"/><ellipse cx="132" cy="730" rx="36" ry="15" transform="rotate(35 132 730)"/><ellipse cx="1710" cy="778" rx="35" ry="15" transform="rotate(38 1710 778)"/><ellipse cx="1650" cy="720" rx="36" ry="15" transform="rotate(-32 1650 720)"/></g>
+ <g fill="#E7A06E"><circle cx="105" cy="744" r="18"/><circle cx="133" cy="754" r="18"/><circle cx="118" cy="722" r="18"/><circle cx="1680" cy="736" r="18"/><circle cx="1709" cy="750" r="18"/><circle cx="1695" cy="718" r="18"/></g>
+ <g transform="translate(900 927)" opacity=".65"><ellipse rx="170" ry="44" stroke="#E8BC84" stroke-width="5"/><ellipse rx="126" ry="31" stroke="#D990A3" stroke-width="5"/><ellipse rx="82" ry="19" stroke="#E8BC84" stroke-width="5"/><path d="M0-87q-31 44 0 68 31-24 0-68zM87 0q-44-31-68 0 24 31 68 0zM0 87q31-44 0-68-31 24 0 68zM-87 0q44 31 68 0-24-31-68 0z" fill="#D995A1"/></g>
+</svg>
