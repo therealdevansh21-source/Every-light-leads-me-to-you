@@ -66,7 +66,7 @@
           <span class="diya-bowl"></span>
           <span class="diya-number">${number}</span>
         </span>
-        <span class="diya-label">${number === 1 ? 'A little joy' : number === 4 ? 'Your dreams' : number === 5 ? 'Our home' : number === 9 ? 'Always us' : 'A little light'}</span>
+        <span class="diya-label">${['Your smile', 'Your beautiful heart', 'Your strength', 'Your dreams', 'A feeling of home', 'Our little things', 'Everything ahead', 'The team we are', 'My favourite choice'][index]}</span>
       `;
       button.addEventListener('click', () => lightDiya(number, button));
       diyaGrid.appendChild(button);

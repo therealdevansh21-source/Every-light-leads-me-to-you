@@ -1,26 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100" fill="none">
- <defs>
-  <radialGradient id="halo"><stop stop-color="#FFE7AC" stop-opacity=".8"/><stop offset="1" stop-color="#FFE7AC" stop-opacity="0"/></radialGradient>
-  <linearGradient id="lantern" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E6AD93"/><stop offset=".5" stop-color="#A97A91"/><stop offset="1" stop-color="#685B83"/></linearGradient>
-  <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#3C365F"/><stop offset="1" stop-color="#212444"/></linearGradient>
- </defs>
- <!-- stars and quiet celestial details -->
- <g fill="#FFF0C9" opacity=".85"><circle cx="115" cy="120" r="3"/><circle cx="248" cy="280" r="2"/><circle cx="420" cy="110" r="2.5"/><circle cx="560" cy="340" r="2"/><circle cx="730" cy="165" r="3"/><circle cx="915" cy="90" r="2"/><circle cx="1080" cy="280" r="2.5"/><circle cx="1270" cy="120" r="2"/><circle cx="1450" cy="240" r="3"/><circle cx="1660" cy="90" r="2.5"/><circle cx="1730" cy="390" r="2"/><circle cx="330" cy="585" r="2"/><circle cx="600" cy="650" r="2.5"/><circle cx="920" cy="540" r="2"/><circle cx="1180" cy="620" r="2.5"/><circle cx="1540" cy="550" r="2"/><circle cx="1710" cy="720" r="3"/><circle cx="110" cy="780" r="2"/></g>
- <g stroke="#F9DFAF" stroke-width="2" opacity=".7"><path d="M320 450v20m-10-10h20M850 335v20m-10-10h20M1390 430v20m-10-10h20M1600 700v20m-10-10h20M470 780v18m-9-9h18"/></g>
- <!-- three drifting lanterns at different distances -->
- <g stroke="#E5BD91" stroke-width="3">
-  <path d="M230 0v160M213 160h34l-4 12h-26zM208 172h44l-6 82q-16 27-32 0z" fill="url(#lantern)"/>
-  <path d="M1430 0v205M1412 205h36l-4 12h-28zM1407 217h46l-7 86q-16 29-32 0z" fill="url(#lantern)"/>
-  <path d="M950 170v125M935 295h30l-4 10h-22zM930 305h40l-6 75q-14 24-28 0z" fill="#A989A6"/>
- </g>
- <g fill="url(#halo)"><ellipse cx="230" cy="240" rx="82" ry="105"/><ellipse cx="1430" cy="290" rx="88" ry="110"/><ellipse cx="950" cy="360" rx="58" ry="78"/></g>
- <!-- distant glowing homes, low on the horizon -->
- <path d="M0 850 120 760l100 68 105-114 124 114 98-80 94 78 130-136 130 137 114-84 110 80 105-105 116 104 100-70 106 79 112-75v300H0z" fill="url(#roof)"/>
- <g stroke="#B88891" stroke-width="5" fill="#40375F"><path d="M0 890h460V730l-90-62-84 62-75-57-86 57-125-63z"/><path d="M440 890h500V744l-95-72-87 72-90-62-86 62-95-48z"/><path d="M920 890h430V728l-86-67-84 67-85-56-84 56-91-49z"/><path d="M1330 890h470V742l-100-76-83 76-84-61-91 61-112-52z"/></g>
- <g fill="#F4D48E"><path d="M54 880v-70q0-39 37-39t37 39v70z"/><path d="M194 880v-70q0-39 37-39t37 39v70z"/><path d="M334 880v-70q0-39 37-39t37 39v70z"/><path d="M500 880v-72q0-41 39-41t39 41v72z"/><path d="M670 880v-72q0-41 39-41t39 41v72z"/><path d="M840 880v-72q0-41 39-41t39 41v72z"/><path d="M978 880v-70q0-39 37-39t37 39v70z"/><path d="M1118 880v-70q0-39 37-39t37 39v70z"/><path d="M1390 880v-72q0-41 39-41t39 41v72z"/><path d="M1560 880v-72q0-41 39-41t39 41v72z"/><path d="M1730 880v-72q0-41 39-41t39 41v72z"/></g>
- <!-- foreground balcony edge with glowing lamps -->
- <path d="M0 970h1800v130H0z" fill="#242548" opacity=".94"/><path d="M0 970q450-30 900 0t900 0" stroke="#C68F87" stroke-width="6" opacity=".65"/>
- <g transform="translate(270 990)"><ellipse rx="72" ry="20" fill="url(#halo)"/><path d="M-32 0q32 22 64 0l-9 25q-23 18-46 0z" fill="#B87569" stroke="#E8BB84" stroke-width="3"/><path d="M-3-8q-5-23 12-39 16 20 2 39z" fill="#FFE5A0"/></g>
- <g transform="translate(900 990)"><ellipse rx="72" ry="20" fill="url(#halo)"/><path d="M-32 0q32 22 64 0l-9 25q-23 18-46 0z" fill="#B87569" stroke="#E8BB84" stroke-width="3"/><path d="M-3-8q-5-23 12-39 16 20 2 39z" fill="#FFE5A0"/></g>
- <g transform="translate(1530 990)"><ellipse rx="72" ry="20" fill="url(#halo)"/><path d="M-32 0q32 22 64 0l-9 25q-23 18-46 0z" fill="#B87569" stroke="#E8BB84" stroke-width="3"/><path d="M-3-8q-5-23 12-39 16 20 2 39z" fill="#FFE5A0"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#191d3b"/><stop offset=".52" stop-color="#29284e"/><stop offset="1" stop-color="#55416c"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#ffe6a8" stop-opacity=".5"/><stop offset="1" stop-color="#ffe6a8" stop-opacity="0"/></radialGradient>
+ <linearGradient id="lantern" x2="1" y2="1"><stop stop-color="#ffe2a4"/><stop offset=".45" stop-color="#e8ac91"/><stop offset="1" stop-color="#a86f86"/></linearGradient>
+ <linearGradient id="house" x2="0" y2="1"><stop stop-color="#655175"/><stop offset="1" stop-color="#332d52"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="17"/></filter>
+</defs>
+<rect width="1800" height="1200" fill="url(#sky)"/>
+<!-- star field -->
+<g fill="#fff1d1"><circle cx="70" cy="85" r="3"/><circle cx="180" cy="210" r="2"/><circle cx="300" cy="95" r="3"/><circle cx="410" cy="250" r="2"/><circle cx="560" cy="115" r="3"/><circle cx="690" cy="220" r="2"/><circle cx="820" cy="75" r="3"/><circle cx="990" cy="175" r="2"/><circle cx="1125" cy="85" r="3"/><circle cx="1270" cy="250" r="2"/><circle cx="1400" cy="105" r="3"/><circle cx="1540" cy="225" r="2"/><circle cx="1700" cy="95" r="3"/><circle cx="1760" cy="340" r="2"/><circle cx="230" cy="430" r="2"/><circle cx="600" cy="395" r="2"/><circle cx="1020" cy="390" r="2"/><circle cx="1450" cy="460" r="2"/><circle cx="1650" cy="500" r="2"/></g>
+<g stroke="#ffe7b7" stroke-width="2" opacity=".75"><path d="M240 320 v24 M228 332 h24 M890 300 v25 M877 312 h26 M1320 165 v24 M1308 177 h24 M1650 340 v24 M1638 352 h24"/></g>
+<!-- moon -->
+<circle cx="1470" cy="220" r="74" fill="#f7e7c7" opacity=".9"/><circle cx="1503" cy="197" r="74" fill="#252448"/>
+<!-- fire-lit paper lanterns floating freely through the midnight sky -->
+<g fill="url(#halo)" filter="url(#glow)"><ellipse cx="270" cy="475" rx="150" ry="190"/><ellipse cx="760" cy="345" rx="120" ry="155"/><ellipse cx="1180" cy="500" rx="160" ry="200"/><ellipse cx="1580" cy="610" rx="150" ry="190"/></g>
+<g stroke="#eacb9b" stroke-width="5" fill="url(#lantern)">
+ <path d="M230 350 H310 L330 470 Q320 540 270 540 Q220 540 210 470Z"/><path d="M224 338 H316 M238 543 H302"/>
+ <path d="M730 235 H790 L806 330 Q798 385 760 385 Q722 385 714 330Z"/><path d="M726 225 H794 M738 388 H782"/>
+ <path d="M1130 360 H1230 L1250 505 Q1238 585 1180 585 Q1122 585 1110 505Z"/><path d="M1122 347 H1238 M1140 589 H1220"/>
+ <path d="M1540 470 H1620 L1638 590 Q1628 660 1580 660 Q1532 660 1522 590Z"/><path d="M1534 458 H1626 M1548 664 H1612"/>
+</g>
+<g stroke="#fff0bd" stroke-width="2" opacity=".8"><path d="M270 370 V520 M760 250 V370 M1180 382 V565 M1580 490 V640"/></g>
+<!-- tiny rising embers make the lanterns feel aloft rather than suspended -->
+<g fill="#ffd994" opacity=".9"><circle cx="205" cy="580" r="5"/><circle cx="228" cy="604" r="3"/><circle cx="735" cy="425" r="4"/><circle cx="780" cy="452" r="3"/><circle cx="1112" cy="635" r="4"/><circle cx="1215" cy="630" r="5"/><circle cx="1540" cy="700" r="4"/><circle cx="1610" cy="710" r="3"/></g>
+<!-- distant illuminated homes -->
+<g fill="url(#house)" stroke="#a47b91" stroke-width="7"><path d="M0 890 L140 760 280 890 V1160 H0Z"/><path d="M260 880 L460 700 660 880 V1160 H260Z"/><path d="M600 900 L790 730 980 900 V1160 H600Z"/><path d="M930 880 L1120 690 1310 880 V1160 H930Z"/><path d="M1270 900 L1460 720 1650 900 V1160 H1270Z"/><path d="M1580 895 L1710 775 1840 895 V1160 H1580Z"/></g>
+<g fill="#ffdf9a"><rect x="55" y="925" width="55" height="105" rx="25"/><rect x="170" y="925" width="55" height="105" rx="25"/><rect x="330" y="925" width="60" height="110" rx="27"/><rect x="525" y="925" width="60" height="110" rx="27"/><rect x="680" y="940" width="58" height="108" rx="27"/><rect x="845" y="940" width="58" height="108" rx="27"/><rect x="1010" y="920" width="58" height="110" rx="27"/><rect x="1190" y="920" width="58" height="110" rx="27"/><rect x="1360" y="930" width="58" height="110" rx="27"/><rect x="1530" y="930" width="58" height="110" rx="27"/><rect x="1690" y="940" width="58" height="108" rx="27"/></g>
+<!-- strings of lights and balcony railings -->
+<path d="M0 820 Q450 920 900 810 T1800 820" stroke="#e5b781" stroke-width="4" fill="none"/><g fill="#ffe6a9"><circle cx="110" cy="842" r="8"/><circle cx="260" cy="865" r="8"/><circle cx="420" cy="875" r="8"/><circle cx="580" cy="866" r="8"/><circle cx="740" cy="835" r="8"/><circle cx="900" cy="815" r="8"/><circle cx="1060" cy="818" r="8"/><circle cx="1220" cy="833" r="8"/><circle cx="1380" cy="855" r="8"/><circle cx="1540" cy="858" r="8"/><circle cx="1700" cy="835" r="8"/></g>
+<path d="M0 1100 Q450 1065 900 1100 T1800 1090 V1200 H0Z" fill="#211f42" stroke="#966f8a" stroke-width="7"/>
 </svg>

@@ -560,3 +560,182 @@ main::before {
   .festive-illustration { min-height: 360px; }
   .memory-section { background-position: center, center top; }
 }
+
+
+/* ================================================================
+   DIWALI EVENING — FULL-SCENE BACKGROUNDS (final approved pass)
+   All existing story copy, captions, messages and real photos remain unchanged.
+   ================================================================ */
+body { background: #24213f; }
+main { background: #24213f; }
+.chapter { background-color: transparent; background-attachment: scroll; }
+.paper { background-color: transparent; }
+.paper::before { opacity: .08; mix-blend-mode: soft-light; }
+
+/* Dusk opens into a real illuminated neighbourhood. */
+.arrival {
+  color: #fff3e5;
+  background-image: linear-gradient(180deg, rgba(60, 46, 75, .10), rgba(47, 36, 65, .24)), url("assets/illustrations/dusk-neighbourhood.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center center;
+  background-size: cover, cover;
+}
+.arrival .section-kicker,
+.arrival .section-kicker span:first-child { color: #fff0d9; }
+.arrival .section-kicker i { background: rgba(255, 232, 198, .62); }
+.arrival-copy {
+  background: rgba(255, 247, 236, .88);
+  border: 1px solid rgba(255, 232, 206, .62);
+  box-shadow: 0 22px 56px rgba(35, 25, 55, .25), inset 0 0 0 5px rgba(255,255,255,.18);
+  backdrop-filter: blur(8px);
+}
+.arrival-footer { color: #fff0dc; }
+.arrival-footer p { text-shadow: 0 2px 18px rgba(42, 33, 65, .5); }
+.arrival-footer .ornament { color: #f5d494; }
+.festive-illustration { background: transparent; border: 0; box-shadow: none; }
+.festive-illustration::after { display: none; }
+
+/* Pari's real photographs live in a marigold-and-LED decorated home. */
+.memory-section {
+  color: #fff4e6;
+  background-image: linear-gradient(180deg, rgba(48, 37, 69, .20), rgba(36, 30, 58, .28)), url("assets/illustrations/festive-home.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center center;
+  background-size: cover, cover;
+}
+.memory-section .section-kicker,
+.memory-section .section-kicker span:first-child { color: #ffe9ca; }
+.memory-section .section-kicker i { background: rgba(255, 228, 198, .62); }
+.memory-section .eyebrow { color: #f4d0c9; }
+.section-heading {
+  background: rgba(44, 35, 67, .52);
+  border-color: rgba(255, 235, 209, .36);
+  backdrop-filter: blur(7px);
+  box-shadow: 0 18px 48px rgba(24, 22, 51, .18);
+}
+.section-heading h2 { color: #fff0dd; }
+.section-heading h2 em { color: #f3c6cd; }
+.section-heading > p:last-child { color: rgba(255, 245, 230, .94); }
+.memory-decor { color: rgba(248, 212, 174, .23); }
+.yellow-gallery::before { border-color: rgba(255, 220, 178, .48); }
+.polaroid {
+  background: #fffaf0;
+  box-shadow: 0 20px 52px rgba(20, 20, 49, .38), 0 0 0 1px rgba(255, 232, 203, .42);
+}
+.polaroid img { background: #e9d9de; }
+.polaroid figcaption { color: #805f74; }
+.soft-note { color: #ffead6; border-color: rgba(255, 225, 195, .48); background: rgba(42, 34, 66, .40); }
+.soft-note span { color: #f1d093; }
+.rail-heading { color: #ffead7; }
+.rail-hint { color: #f4d4c1; }
+.rail-photo { background: #fffaf0; box-shadow: 0 17px 38px rgba(24, 20, 48, .38); }
+
+/* Fireworks chapter: the background includes a small illustrated couple on a rooftop. */
+.night-section {
+  background-image: linear-gradient(180deg, rgba(31, 28, 60, .12), rgba(33, 27, 57, .26)), url("assets/illustrations/midnight-town.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center center;
+  background-size: cover, cover;
+}
+.night-section::before {
+  background: linear-gradient(180deg, rgba(32, 30, 64, .05), rgba(42, 29, 59, .13));
+}
+.night-copy h2 { color: #fff0d9; }
+.night-copy h2 em { color: #f0c1cd; }
+.night-copy p:not(.eyebrow):not(.script-line) { color: rgba(255,245,231,.92); }
+.couple-photo { border: 1px solid rgba(255, 226, 190, .8); box-shadow: 0 25px 65px rgba(12, 13, 38, .48), 0 0 0 5px rgba(255, 245, 224, .10); }
+.night-bottom { color: #fbe4d0; }
+
+/* The following couple-photo album stays in the same fireworks-lit neighbourhood. */
+.us-album {
+  color: #fff4e6;
+  background-image: linear-gradient(180deg, rgba(36, 31, 63, .18), rgba(34, 29, 57, .32)), url("assets/illustrations/midnight-town.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center center;
+  background-size: cover, cover;
+}
+.us-album .section-kicker,
+.us-album .section-kicker span:first-child { color: #ffe9cc; }
+.us-album .section-kicker i { background: rgba(255, 226, 195, .62); }
+.album-header h2, .album-header h2 em { color: #fff0dc; }
+.album-header > p { color: rgba(255, 243, 226, .92); }
+.album-footnote { color: #f9dfca; }
+.album-footnote span { color: #f1cf8c; }
+.couple-rail .rail-photo { box-shadow: 0 18px 45px rgba(14, 15, 42, .42); }
+
+/* Quiet chapter: the fireworks recede and the lanterns float higher. */
+.quiet-section {
+  background-image: linear-gradient(180deg, rgba(27, 27, 57, .12), rgba(31, 28, 57, .22)), url("assets/illustrations/lantern-midnight.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center center;
+  background-size: cover, cover;
+}
+.quiet-section::before { opacity: .32; }
+.quiet-section::after { background: linear-gradient(0deg, rgba(255, 194, 151, .12), transparent); }
+.quiet-copy { text-shadow: 0 2px 18px rgba(20, 18, 42, .24); }
+.quiet-copy p:not(.eyebrow):not(.script-line) { color: rgba(255, 246, 232, .93); }
+
+/* Interactive diyas sit in a lit courtyard with rangoli, balconies and LEDs. */
+.diya-section {
+  color: #fff2e3;
+  background-image: linear-gradient(180deg, rgba(30, 27, 57, .15), rgba(39, 29, 58, .25)), url("assets/illustrations/diya-courtyard.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center center;
+  background-size: cover, cover;
+  padding-top: 122px;
+  padding-bottom: 112px;
+}
+.diya-section .section-kicker,
+.diya-section .section-kicker span:first-child { color: #ffe9d0; }
+.diya-section .section-kicker i { background: rgba(255, 227, 195, .65); }
+.diya-heading .eyebrow { color: #f3c9c9; }
+.diya-heading h2 { color: #fff0dc; }
+.diya-heading h2 em { color: #f0c2cf; }
+.diya-heading > p:not(.eyebrow):not(.tap-hint) { color: rgba(255, 242, 225, .94); }
+.tap-hint { color: #ffe0c6; }
+.diya-label { color: #fff0dc; text-shadow: 0 2px 14px rgba(22, 18, 45, .78); max-width: 150px; line-height: 1.08; }
+.diya-button.lit .diya-label { color: #ffe0a0; }
+.diya-button:focus-visible { outline-color: #f3d29a; }
+.diya-progress-wrap { color: #fff0dd; text-shadow: 0 2px 12px rgba(20,18,42,.5); }
+.diya-progress-track { background: rgba(255, 239, 218, .27); }
+.all-lit-message { border-color: rgba(246, 215, 174, .72); background: rgba(255, 247, 232, .94); box-shadow: 0 18px 48px rgba(16, 16, 43, .34), 0 0 44px rgba(255, 207, 137, .2); }
+.all-lit-message h3 { color: #80566e; }
+.all-lit-message p { color: #806b78; }
+
+/* Final portrait and unchanged letter beneath a sky full of stars and floating fire-lamps. */
+.finale {
+  color: #fff2e4;
+  background-image: linear-gradient(180deg, rgba(26, 25, 55, .10), rgba(29, 26, 55, .22)), url("assets/illustrations/lantern-midnight.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center center;
+  background-size: cover, cover;
+  padding-top: 124px;
+  padding-bottom: 42px;
+}
+.finale::before {
+  background: radial-gradient(ellipse at 11% 20%, rgba(227, 159, 172, .10), transparent 28%), radial-gradient(ellipse at 91% 83%, rgba(229, 187, 128, .10), transparent 31%);
+}
+.finale .section-kicker,
+.finale .section-kicker span:first-child { color: #ffe9d0; }
+.finale .section-kicker i { background: rgba(255, 227, 195, .62); }
+.finale-florals { color: rgba(246, 213, 181, .52); }
+.photo-arch { background: #fff9ec; box-shadow: 0 25px 65px rgba(13, 15, 42, .48), 0 0 0 8px rgba(255, 241, 214, .10); }
+.photo-caption { color: #ffe4d0; text-shadow: 0 2px 14px rgba(25, 22, 52, .48); }
+.closing-footer { border-color: rgba(255, 225, 194, .38); color: #f6ddc9; }
+.closing-footer b { color: #f2ca8d; }
+
+/* All selected originals render reliably even when someone scrolls quickly. */
+.yellow-gallery img, .photo-rail img, .couple-memories img, .photo-arch img { display: block; opacity: 1; visibility: visible; }
+.photo-button, .rail-photo { background: #fffaf0; }
+.photo-button img, .rail-photo img { min-height: 120px; }
+
+@media (max-width: 900px) {
+  .arrival, .memory-section, .night-section, .us-album, .quiet-section, .diya-section, .finale { background-size: cover, cover; }
+}
+@media (max-width: 650px) {
+  .arrival, .memory-section, .night-section, .us-album, .quiet-section, .diya-section, .finale { background-size: cover, cover; background-position: center, center center; }
+  .arrival-copy { background: rgba(255, 247, 236, .91); }
+  .section-heading { background: rgba(44, 35, 67, .62); }
+  .diya-grid { gap: 18px 8px; }
+  .diya-label { max-width: 108px; font-size: .96rem; }
+}

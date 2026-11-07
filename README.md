@@ -73,3 +73,8 @@ The visual environment is built from four local vector illustrations in `assets/
 - `lantern-midnight.svg` — the quieter starry sky, floating lanterns and distant glowing homes.
 
 These are local SVG assets; the site does not need a separate image service or build step. The visual update changes the page backgrounds and decorative environments only. The supplied `index.html`, `script.js`, 17 selected WebP photographs, their captions, the nine diya messages and the final letter remain unchanged.
+
+
+## Final Diwali environment pass
+
+The illustrated environments are full-bleed, opaque local SVG scenes for dusk neighbourhoods, decorated homes, fireworks, a lantern-filled midnight sky, and the diya courtyard. The website still uses the original 17 selected photographs and original story copy. Photo assets load eagerly so the gallery does not leave blank placeholders during quick scrolling.

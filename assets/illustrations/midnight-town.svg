@@ -1,47 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" viewBox="0 0 1800 1000" fill="none">
- <defs>
-  <radialGradient id="burst"><stop stop-color="#FFF8D6"/><stop offset=".12" stop-color="#FFE7A8"/><stop offset="1" stop-color="#E9A4BD" stop-opacity="0"/></radialGradient>
-  <radialGradient id="glow"><stop stop-color="#FFE5A3" stop-opacity=".9"/><stop offset="1" stop-color="#FFE5A3" stop-opacity="0"/></radialGradient>
-  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#292B55"/><stop offset=".62" stop-color="#4B406B"/><stop offset="1" stop-color="#7D5B78"/></linearGradient>
- </defs>
- <!-- gentle firework blooms -->
- <g opacity=".6">
-  <circle cx="300" cy="260" r="125" fill="url(#burst)"/>
-  <g stroke="#F4D39B" stroke-width="3" stroke-linecap="round"><path d="M300 104v46M300 370v46M144 260h46M410 260h46M190 150l34 34M376 336l34 34M410 150l-34 34M224 336l-34 34"/><path d="M300 83v12M300 425v12M123 260h12M465 260h12M173 133l9 9M418 375l9 9M427 133l-9 9M182 375l-9 9" stroke-width="5"/></g>
-  <circle cx="300" cy="260" r="7" fill="#FFF0BD"/>
-  <circle cx="1420" cy="305" r="160" fill="url(#burst)"/>
-  <g stroke="#EAB0C1" stroke-width="3" stroke-linecap="round"><path d="M1420 112v55M1420 443v55M1227 305h55M1558 305h55M1283 168l39 39M1518 403l39 39M1557 168l-39 39M1322 403l-39 39"/><path d="M1420 80v15M1420 515v15M1195 305h15M1630 305h15M1257 142l10 10M1573 458l10 10M1583 142l-10 10M1267 458l-10 10" stroke-width="5"/></g>
-  <circle cx="1420" cy="305" r="8" fill="#FFF0BD"/>
-  <circle cx="900" cy="160" r="90" fill="url(#burst)" opacity=".5"/>
- </g>
- <!-- tiny stars -->
- <g fill="#FFF1C8"><circle cx="90" cy="170" r="3"/><circle cx="182" cy="80" r="2"/><circle cx="510" cy="70" r="3"/><circle cx="670" cy="230" r="2"/><circle cx="810" cy="75" r="3"/><circle cx="1020" cy="205" r="2"/><circle cx="1170" cy="90" r="3"/><circle cx="1610" cy="90" r="2"/><circle cx="1710" cy="230" r="3"/><circle cx="1570" cy="540" r="2"/><circle cx="1250" cy="600" r="3"/><circle cx="720" cy="550" r="2"/><circle cx="420" cy="610" r="3"/><circle cx="90" cy="520" r="2"/></g>
- <g stroke="#F9DFA8" stroke-width="2" opacity=".72"><path d="M580 420v18m-9-9h18M1110 470v18m-9-9h18M1670 630v16m-8-8h16M220 620v16m-8-8h16"/></g>
- <!-- floating paper lanterns -->
- <g stroke="#EAC28B" stroke-width="3">
-  <path d="M180 0v160M160 160h40l-5 14h-30zM155 174h50l-7 92q-18 32-36 0z" fill="#C98F91"/>
-  <path d="M1580 0v195M1560 195h40l-5 14h-30zM1555 209h50l-7 92q-18 32-36 0z" fill="#D89A8E"/>
-  <path d="M1050 110v120M1033 230h34l-4 11h-26zM1028 241h44l-6 78q-16 26-32 0z" fill="#AE8AA6"/>
- </g>
- <g fill="url(#glow)"><ellipse cx="180" cy="248" rx="70" ry="95"/><ellipse cx="1580" cy="282" rx="72" ry="100"/><ellipse cx="1050" cy="300" rx="58" ry="77"/></g>
- <!-- long roofline of the old neighbourhood -->
- <path d="M0 730 95 660l88 46 108-117 109 118 85-64 91 74 113-126 116 125 90-69 91 67 116-105 100 108 95-61 105 74 102-64 106 68v270H0z" fill="#252849" opacity=".9"/>
- <g fill="#3C365F" stroke="#B9878C" stroke-width="5">
-  <path d="M0 790h420V600l-80-70-75 70-75-62-75 62-80-48z"/>
-  <path d="M410 790h550V620l-110-95-94 83-88-66-96 72-82-45z"/>
-  <path d="M950 790h410V605l-78-72-84 72-78-64-80 64-90-56z"/>
-  <path d="M1350 790h450V620l-96-89-85 72-85-62-78 62-106-54z"/>
- </g>
- <!-- arched illuminated windows -->
- <g fill="#F9D58F" opacity=".93">
-  <path d="M55 780v-76q0-40 35-40t35 40v76z"/><path d="M190 780v-76q0-40 35-40t35 40v76z"/><path d="M325 780v-76q0-40 35-40t35 40v76z"/>
-  <path d="M480 780v-83q0-44 38-44t38 44v83z"/><path d="M640 780v-83q0-44 38-44t38 44v83z"/><path d="M800 780v-83q0-44 38-44t38 44v83z"/>
-  <path d="M1010 780v-76q0-40 35-40t35 40v76z"/><path d="M1150 780v-76q0-40 35-40t35 40v76z"/>
-  <path d="M1400 780v-83q0-44 38-44t38 44v83z"/><path d="M1560 780v-83q0-44 38-44t38 44v83z"/><path d="M1710 780v-83q0-44 38-44t38 44v83z"/>
- </g>
- <g fill="#FFE7B0" opacity=".85"><circle cx="95" cy="677" r="6"/><circle cx="230" cy="677" r="6"/><circle cx="365" cy="677" r="6"/><circle cx="518" cy="660" r="6"/><circle cx="678" cy="660" r="6"/><circle cx="838" cy="660" r="6"/><circle cx="1045" cy="677" r="6"/><circle cx="1185" cy="677" r="6"/><circle cx="1438" cy="660" r="6"/><circle cx="1598" cy="660" r="6"/><circle cx="1748" cy="660" r="6"/></g>
- <!-- marigold-lit foreground terrace -->
- <path d="M0 872q300-65 600 0t600 0 600 0v128H0z" fill="#1E2244" opacity=".88"/>
- <path d="M0 890q300-65 600 0t600 0 600 0" stroke="#C78D83" stroke-width="7" opacity=".7"/>
- <g fill="#E8A46C"><circle cx="135" cy="882" r="9"/><circle cx="165" cy="884" r="9"/><circle cx="195" cy="887" r="9"/><circle cx="1600" cy="883" r="9"/><circle cx="1630" cy="886" r="9"/><circle cx="1660" cy="888" r="9"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#202342"/><stop offset=".45" stop-color="#38325f"/><stop offset=".78" stop-color="#5a426e"/><stop offset="1" stop-color="#9a637d"/></linearGradient>
+ <radialGradient id="burst"><stop stop-color="#fff8d6"/><stop offset=".15" stop-color="#ffdf9a"/><stop offset=".5" stop-color="#ee9fc3" stop-opacity=".72"/><stop offset="1" stop-color="#ee9fc3" stop-opacity="0"/></radialGradient>
+ <radialGradient id="burst2"><stop stop-color="#fff6d6"/><stop offset=".2" stop-color="#f7c987"/><stop offset=".55" stop-color="#b9a1e6" stop-opacity=".56"/><stop offset="1" stop-color="#b9a1e6" stop-opacity="0"/></radialGradient>
+ <linearGradient id="windows" x2="0" y2="1"><stop stop-color="#fff0b5"/><stop offset="1" stop-color="#e8a85f"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="16"/></filter>
+</defs>
+<rect width="1800" height="1200" fill="url(#sky)"/>
+<!-- stars -->
+<g fill="#fff0cf"><circle cx="86" cy="115" r="3"/><circle cx="235" cy="205" r="2.5"/><circle cx="370" cy="90" r="3"/><circle cx="510" cy="220" r="2"/><circle cx="710" cy="125" r="3"/><circle cx="885" cy="75" r="2.5"/><circle cx="1055" cy="200" r="2"/><circle cx="1245" cy="93" r="3"/><circle cx="1455" cy="190" r="2.5"/><circle cx="1680" cy="115" r="3"/><circle cx="1770" cy="290" r="2"/></g>
+<!-- fireworks glow -->
+<circle cx="340" cy="340" r="230" fill="url(#burst)" opacity=".9"/><circle cx="900" cy="255" r="190" fill="url(#burst2)" opacity=".8"/><circle cx="1450" cy="350" r="260" fill="url(#burst)" opacity=".9"/>
+<!-- firework spokes -->
+<g fill="none" stroke-linecap="round"><g transform="translate(340 340)" stroke="#ffdca0" stroke-width="5"><path d="M0 -190 V-130 M0 130 V190 M-190 0 H-130 M130 0 H190 M-134 -134 L-92 -92 M92 92 L134 134 M-134 134 L-92 92 M92 -92 L134 -134"/><path d="M0 -235 V-215 M0 215 V235 M-235 0 H-215 M215 0 H235" stroke="#efbdd4" stroke-width="3"/></g><g transform="translate(900 255)" stroke="#e6d4ff" stroke-width="4"><path d="M0 -150 V-105 M0 105 V150 M-150 0 H-105 M105 0 H150 M-106 -106 L-74 -74 M74 74 L106 106 M-106 106 L-74 74 M74 -74 L106 -106"/></g><g transform="translate(1450 350)" stroke="#ffd68d" stroke-width="5"><path d="M0 -210 V-145 M0 145 V210 M-210 0 H-145 M145 0 H210 M-148 -148 L-102 -102 M102 102 L148 148 M-148 148 L-102 102 M102 -102 L148 -148"/><path d="M0 -250 V-230 M0 230 V250 M-250 0 H-230 M230 0 H250" stroke="#f0b5d0" stroke-width="3"/></g></g>
+<!-- secondary sparkles -->
+<g fill="#fff0bd"><circle cx="470" cy="180" r="7"/><circle cx="515" cy="410" r="5"/><circle cx="790" cy="440" r="6"/><circle cx="1110" cy="130" r="5"/><circle cx="1270" cy="500" r="6"/><circle cx="1600" cy="570" r="7"/><circle cx="200" cy="550" r="5"/><circle cx="1030" cy="510" r="4"/></g>
+<!-- distant city skyline -->
+<g fill="#302c52" opacity=".8"><path d="M0 780 L110 720 210 775 330 670 430 780 520 715 620 780 730 660 835 780 940 700 1050 780 1170 655 1280 780 1400 700 1510 780 1630 650 1745 780 1800 750 V1200 H0Z"/></g>
+<!-- illuminated houses -->
+<g stroke="#b9839b" stroke-width="7">
+ <path d="M0 855 L180 690 360 855 V1120 H0Z" fill="#46385f"/><path d="M-25 860 L180 660 385 860" fill="none" stroke="#e2a5a9" stroke-width="17"/>
+ <path d="M410 850 L620 665 830 850 V1120 H410Z" fill="#3b355d"/><path d="M380 855 L620 630 860 855" fill="none" stroke="#dc9da7" stroke-width="18"/>
+ <path d="M910 855 L1100 690 1290 855 V1120 H910Z" fill="#45365d"/><path d="M885 860 L1100 650 1315 860" fill="none" stroke="#d69aa7" stroke-width="18"/>
+ <path d="M1320 860 L1555 665 1790 860 V1120 H1320Z" fill="#3d355b"/><path d="M1290 865 L1555 625 1820 865" fill="none" stroke="#e3a6a9" stroke-width="18"/>
+</g>
+<g fill="url(#windows)" stroke="#f2c88f" stroke-width="7"><rect x="65" y="880" width="70" height="115" rx="32"/><rect x="225" y="880" width="70" height="115" rx="32"/><rect x="480" y="875" width="76" height="125" rx="34"/><rect x="680" y="875" width="76" height="125" rx="34"/><rect x="975" y="880" width="72" height="120" rx="33"/><rect x="1150" y="880" width="72" height="120" rx="33"/><rect x="1390" y="880" width="76" height="125" rx="34"/><rect x="1630" y="880" width="76" height="125" rx="34"/></g>
+<!-- fairy lights along rooflines -->
+<path d="M0 850 Q220 920 420 850 T850 850 T1290 850 T1800 840" fill="none" stroke="#f2c989" stroke-width="4"/>
+<g fill="#ffe5a5"><circle cx="80" cy="873" r="8"/><circle cx="180" cy="894" r="8"/><circle cx="280" cy="887" r="8"/><circle cx="500" cy="885" r="8"/><circle cx="620" cy="870" r="8"/><circle cx="740" cy="875" r="8"/><circle cx="960" cy="880" r="8"/><circle cx="1080" cy="870" r="8"/><circle cx="1200" cy="880" r="8"/><circle cx="1400" cy="885" r="8"/><circle cx="1540" cy="870" r="8"/><circle cx="1680" cy="870" r="8"/></g>
+<!-- foreground rooftop ledge -->
+<path d="M0 1115 Q430 1080 820 1120 T1800 1105 V1200 H0Z" fill="#282747" stroke="#9e718c" stroke-width="8"/>
+<path d="M0 1140 H1800" stroke="#d49b9c" stroke-width="8" opacity=".75"/>
+<!-- couple sitting together, seen from behind, watching fireworks -->
+<g transform="translate(900 0)">
+ <!-- soft halo behind silhouettes -->
+ <ellipse cx="0" cy="1050" rx="250" ry="105" fill="#f3b98e" opacity=".12" filter="url(#glow)"/>
+ <!-- shoulders and bodies -->
+ <path d="M-110 1110 Q-140 1015 -88 973 Q-50 945 -8 978 Q25 1007 20 1110Z" fill="#312b50" stroke="#bd8a91" stroke-width="7"/>
+ <path d="M-15 1110 Q-12 1002 50 974 Q105 950 146 995 Q178 1033 164 1110Z" fill="#40304f" stroke="#d19a91" stroke-width="7"/>
+ <!-- heads -->
+ <circle cx="-60" cy="946" r="47" fill="#30294b" stroke="#d19a91" stroke-width="7"/>
+ <circle cx="88" cy="944" r="45" fill="#292744" stroke="#deb28f" stroke-width="7"/>
+ <!-- hair shapes -->
+ <path d="M-108 948 Q-118 874 -60 870 Q-5 875 -14 949 Q-34 915 -63 912 Q-90 920 -108 948Z" fill="#211f3d"/>
+ <path d="M45 938 Q40 874 90 870 Q143 876 135 944 Q121 913 90 912 Q65 916 45 938Z" fill="#211f3d"/>
+ <!-- shoulders lean toward each other / joined hands -->
+ <path d="M-7 1052 Q26 1022 51 1052" fill="none" stroke="#e3b28f" stroke-width="12" stroke-linecap="round"/>
+ <path d="M-15 1085 Q5 1070 25 1085" fill="none" stroke="#f0c893" stroke-width="8" stroke-linecap="round"/>
+ <!-- small heart -->
+ <path d="M18 1005 C4 988 -18 1009 18 1035 C54 1009 32 988 18 1005Z" fill="#e8a6b7" opacity=".85"/>
+</g>
+<!-- tiny diyas on rooftop -->
+<g fill="#d58b66"><path d="M300 1130 Q330 1106 360 1130 Q330 1157 300 1130Z"/><path d="M1450 1128 Q1480 1104 1510 1128 Q1480 1155 1450 1128Z"/></g><g fill="#ffe6a1"><path d="M330 1097 Q312 1120 330 1128 Q348 1120 330 1097Z"/><path d="M1480 1095 Q1462 1118 1480 1126 Q1498 1118 1480 1095Z"/></g>
 </svg>
