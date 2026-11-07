@@ -1,0 +1,26 @@
+17 selected photographs, converted to optimised WebP for fast mobile loading.
+
+YELLOW SAREE FEATURE (all four supplied yellow-saree poses / twirl shots):
+- yellow-twirl.webp  <- 171753BE-BB95-46D1-9D5E-DCD88186B1AE.JPG (also used for the final Lakshmi portrait)
+- yellow-pose.webp   <- 128D0AF2-240C-4B66-95E0-B7707896ABD2.JPG
+- yellow-turn.webp   <- 53801AF0-77D9-4050-BC79-5CA3159133C4.JPG
+- yellow-look.webp   <- A2802D3A-7E87-4E67-8896-74223614EE8C.JPG
+
+PARI SOLO / PORTRAIT PHOTOS:
+- pari-closeup.webp  <- AC211E06-2B2B-46C3-958A-17DAB9280065.JPG
+- pari-smile.webp    <- FFF88916-96BE-41DD-B933-E573FFE5B99E.JPG
+- pari-garden.webp   <- 671311A5-4C4D-403B-B7BF-3ADEFAD3F5BA.JPG
+- pari-portrait.webp <- 582C0AA5-7430-4AF9-A348-7EA49ECB5CE3.JPG
+- pari-candid.webp   <- A1540D38-7FC0-402E-9EED-CA2767013616.JPG
+- pari-pink.webp     <- A418DA61-7A88-44CB-9002-E11C730F76B6.JPG
+
+COUPLE PHOTOS:
+- us-kiss.webp    <- 133AECA7-EFF6-4677-ABB1-C060B4B964C4.JPG
+- us-mirror.webp  <- 28AE5050-D543-43BD-8A90-518BBC4DEF03.JPG
+- us-outing.webp  <- 4BE5E223-9CC3-428A-808B-4AB7079CDBA3.JPG
+- us-hug.webp     <- D7676A0E-C8D5-4539-B786-5D7D8A40DC16.JPG
+- us-gym.webp     <- FB571485-2C52-4BC2-8387-6721ADFB8DCF.JPG
+- us-playful.webp <- IMG_1729.JPG
+- us-laugh.webp   <- IMG_1852.JPG
+
+HEIC files in the archive were not included because this environment could not decode them; the 17 included JPEG photos were readable and optimised. The website does not use generated portraits of Pari.
